@@ -12,7 +12,6 @@ venv/
 .env/
 ENV/
 env/
-artifacts/
 build/
 develop-eggs/
 dist/
