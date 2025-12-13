@@ -82,8 +82,8 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v1
 
       - name: Cleanup docker before deploy
-            run: |
-              docker system prune -af --volumes
+        run: |
+          docker system prune -af --volumes
 
       - name: Pull latest images
         run: |
